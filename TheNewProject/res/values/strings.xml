@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The new Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Add">ADD</string>
+    <string name="Subs">SUBSTRACT</string>
+    <string name="command">type a command</string>
+    <string name="button">Button</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="invalid">invalid</string>
+    <string name="first_name">first name</string>
+ 
+
+</resources>

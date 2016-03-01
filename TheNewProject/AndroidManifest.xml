@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thenewproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.thenewproject.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black"
+             >
+            <intent-filter>
+                <action android:name="com.example.thenewproject.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Menu"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="com.example.thenewproject.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thenewproject.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog"        >    <intent-filter>
+                <action android:name="com.example.thenewproject.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Textplay"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Email"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Photo"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Data"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.GFX"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.GFXSurface"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.OpenedClass"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.SoundStuff"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Slider"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Tabs"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.SimpleBrowser"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Flipper"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.SharedPrefs"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Internaldata"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.example.thenewproject.ExternalData"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Accelerate"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.HttpEx"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Voice"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.example.thenewproject.Textvoice"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Statusbar"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.thenewproject.Seekbarvolume"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+    </application>
+
+</manifest>
